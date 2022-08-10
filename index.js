@@ -15,7 +15,7 @@ function currentInfo() {
 
 async function printLoc(lat, lon) {
     var WeatherURL =
-        "http://api.openweathermap.org/data/2.5/weather?lat=" +
+        "https://api.openweathermap.org/data/2.5/weather?lat=" +
         lat +
         "&lon=" +
         lon +
@@ -54,7 +54,7 @@ async function printLoc(lat, lon) {
 //Grabbing data for inputted city info
 function getLoc(city, country) {
     var LocURL =
-        "http://api.openweathermap.org/geo/1.0/direct?q=" +
+        "https://api.openweathermap.org/geo/1.0/direct?q=" +
         city +
         "," +
         country +
