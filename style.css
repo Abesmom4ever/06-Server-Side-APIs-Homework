@@ -1,0 +1,20 @@
+.btn {
+    cursor: pointer;
+}
+
+#dropdown {
+    position: absolute;
+    overflow: auto;
+    z-index: 1;
+    background-color: #d7eff9;
+}
+
+#dropdown li {
+    display: block;
+    padding: 10px;
+    list-style: none;
+}
+
+#dropdown li:hover {
+    background-color: #6ca5bc;
+}

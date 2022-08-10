@@ -1,2 +1,12 @@
-1) fetch weather info
-2) append specific weather info 
+After getting data from API fetch, OpenWeather only reacts to the inputted City, unless the country is abbreviated and separated by comma.
+
+1) Need to write an if statement i think so
+IF client inputs city, then drop down menu to provide all cities with same name from all relevant countries.
+IF client inputs city and correctly abbreviated country, then drop down menu will provide city within the country.
+IF the client inputs any other info, add alert letting them know no city was found.
+EVEN IF client does not space the cities's names properly, the city will pop up with from all relevant countries
+
+2) Attach each result to a listed item in the drop down menu
+
+** appended "p" element when submit btn is clicked. But i want it to be a
+** dropdown menu with the option to click it to get the specified lat and lon
